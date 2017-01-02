@@ -1,0 +1,42 @@
+T1	Person 0 17	Professor Memmott
+T2	Position 24 38	anthropologist
+T3	Position 39 48	architect
+T4	Position 57 65	Director
+T5	Organization 73 119	Aboriginal Environments Research Centre (AERC)
+T6	University 166 168	UQ
+T7	University 169 191	School of Architecture
+T8	University 250 254	UQ's
+T9	Organization 255 292	Institute for Social Science Research
+T10	3-ary 0 17	Professor Memmott
+E1	3-ary:T10 Arg1:T4 Arg2:T5
+A1	Confidence E1 Certain
+E2	3-ary:T10 Arg1:T3 Arg2:T6
+A2	Confidence E2 Probable
+T11	Organization 295 299	AERC
+T12	Person 447 461	Paul Memmott's
+T13	Discipline 484 496	architecture
+T14	2-ary 447 461	Paul Memmott's
+E3	2-ary:T14 Arg1:T13
+A3	Confidence E3 Certain
+T15	Organization 800 824	University of Queensland
+T16	Person 853 872	Professor Memmott's
+T17	Degree 873 882	doctorate
+T18	2-ary 853 872	Professor Memmott's
+E4	2-ary:T18 Arg1:T17
+A4	Confidence E4 Certain
+T19	Person 1009 1013	Paul
+T20	Position 1069 1078	architect
+T21	Position 1083 1097	anthropologist
+T22	Discipline 1160 1175	social planning
+T23	3-ary 1009 1013	Paul
+E5	3-ary:T23 Arg1:T20 Arg2:T22
+A5	Confidence E5 Probable
+E6	3-ary:T23 Arg1:T21 Arg1:T22
+A6	Confidence E6 Probable
+T24	Person 1284 1286	He
+T25	Position 1300 1309	principal
+T26	2-ary 1284 1286	He
+E7	2-ary:T26 Arg1:T25
+A7	Confidence E7 Certain
+T27	Person 1503 1505	He
+T28	Person 1595 1597	He
